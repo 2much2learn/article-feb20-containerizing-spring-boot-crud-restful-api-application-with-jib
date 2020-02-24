@@ -1,0 +1,90 @@
+[
+    {
+        "Id": "sha256:e946277f08dfbc25a28f17a348544d96592b1d854d21f1c61fde316fe5703f62",
+        "RepoTags": [
+            "2much2learn/java8-spring-boot-crud-restful-api-with-jib:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "classes",
+        "Created": "1970-01-01T00:00:00Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
+                "JAVA_VERSION=8u242"
+            ],
+            "Cmd": null,
+            "Image": "",
+            "Volumes": {},
+            "WorkingDir": "",
+            "Entrypoint": [
+                "java",
+                "-cp",
+                "/app/resources:/app/classes:/app/libs/*",
+                "com.toomuch2learn.springboot2.crud.catalogue.CrudCatalogueApplication"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 167980775,
+        "VirtualSize": 167980775,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/mnt/sda1/var/lib/docker/overlay2/604538a2d7bdcd38ac544b2f21f0b0132220f4ca5048d2dcba637124f5a57483/diff:/mnt/sda1/var/lib/docker/overlay2/fb36449b085b04884190b1c2cc112000b803a1b7dd2c188de970e10471e25fd4/diff:/mnt/sda1/var/lib/docker/overlay2/cfbb236af63ca8d643122303afe0f4a897abd762cbd8766512e8da92d27a7e7b/diff:/mnt/sda1/var/lib/docker/overlay2/1d021a5a67c29dc95439551f9da25947c28f3c9eb9a5559ed46f0bfd0dfcbfe5/diff:/mnt/sda1/var/lib/docker/overlay2/67eae62b5474c891f50aa0c57074cf45362c47272310c8d9ef80428c94e929f5/diff:/mnt/sda1/var/lib/docker/overlay2/3e360e709b24ff257041c730a0f9bd0024dc74e3866fa6e494d2d26777f28601/diff",
+                "MergedDir": "/mnt/sda1/var/lib/docker/overlay2/286d34ec0a076b75c422249f2053b181980683a72d1a0eb7089f62121e789837/merged",
+                "UpperDir": "/mnt/sda1/var/lib/docker/overlay2/286d34ec0a076b75c422249f2053b181980683a72d1a0eb7089f62121e789837/diff",
+                "WorkDir": "/mnt/sda1/var/lib/docker/overlay2/286d34ec0a076b75c422249f2053b181980683a72d1a0eb7089f62121e789837/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:42a3027eaac150d2b8f516100921f4bd83b3dbc20bfe64124f686c072b49c602",
+                "sha256:f47163e8de57e3e3ccfe89d5dfbd9c252d9eca53dc7906b8db60eddcb876c592",
+                "sha256:6189abe095d53c1c9f2bfc8f50128ee876b9a5d10f9eda1564e5f5357d6ffe61",
+                "sha256:1688cc5c3b5302a170a81ec0bf746ff76b767fc0f348df253e89670a25129fa2",
+                "sha256:6b66fa89597d903f5f12c66ed3db3136619139c83b9d6acfb3cebecf76f639c6",
+                "sha256:52ec667d689914223e3888cbb09701a7041c77e73f2c091a49694e04136916bc",
+                "sha256:8d0d4c1af84ec222c1b78af2156266b2966b18e531ff4a3b4f06ba0647030942"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
